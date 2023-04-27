@@ -294,11 +294,6 @@ body {
 }
 
 
-.section-advantages {
-    padding-bottom: 120px;
-}
-
-
 .our-advantages {
     font-weight: 700;
     font-size: 36px;
@@ -406,11 +401,11 @@ body {
 
 .section {
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 
 .section-team {
-    padding-bottom: 120px;
     background-color: #F4F4FD;
 }
 
