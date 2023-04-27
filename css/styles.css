@@ -55,6 +55,7 @@ body {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .page-nav {
@@ -65,14 +66,14 @@ body {
 
 .container {
     width: 1158px;
-    margin: auto;
+    margin: 0 auto;
     padding: 15px;
 }
 
 
 .logo {
     margin-right: 76px;
-
+    
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -441,6 +442,7 @@ body {
 
 
 .logo-web {
+    margin-right: 76px;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
