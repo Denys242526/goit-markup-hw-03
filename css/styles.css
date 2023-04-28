@@ -211,24 +211,21 @@ body {
 }
 
 
-.btn {
-    text-align: center;
-}
 
 
 .service-button {
+    display: block;
     min-width: 169px;
-    padding: 16px 32px;
+    height: 56px;
 
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+    font-size: 16px;  
     cursor: pointer;
+    border: none;
     border-radius: 4px;
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;;
 }
 
 
@@ -241,7 +238,7 @@ body {
 .card-set {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    gap: 24px;
     margin-bottom: 120px;
 }
 
@@ -267,6 +264,7 @@ body {
 
 .section-hero {
     min-height: 600px;
+    padding: 188px 0;
     background-color: #2E2F42;
 }
 
@@ -282,8 +280,7 @@ body {
 
 
 .title-hero {
-    margin-top: 188px;
-    margin-bottom: 48px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 0.7;
@@ -386,15 +383,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding: 32px 16px;
+}
 
+
+.name {
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 
 .paragraph {
-    margin-top: 8px;
+    text-align: center;
 }
 
 
