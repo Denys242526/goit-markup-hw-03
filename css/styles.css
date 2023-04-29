@@ -121,16 +121,17 @@ body {
 
 
 .address {
+    display: flex;
+    gap: 40px;
     margin-left: auto;
 }
 
 
 
-.auth-nav {
-    display: flex;
-    gap: 40px;
+/* .auth-nav {
+    
 
-}
+} */
 
 
 .auth-nav .link:hover,
@@ -214,7 +215,6 @@ body {
 
 
 .service-button {
-    display: block;
     min-width: 169px;
     height: 56px;
 
@@ -226,7 +226,7 @@ body {
     border-radius: 4px;
     color: #FFFFFF;
     background-color: #4d5ae5;
-    ;
+
 }
 
 
@@ -240,6 +240,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+
 
 }
 
@@ -338,10 +339,6 @@ body {
 }
 
 
-.section-advantages {
-    padding: 120px 0;
-}
-
 
 .section-specialization {
     margin-bottom: 72px;
@@ -375,6 +372,7 @@ body {
     gap: 24px;
 
 
+
 }
 
 
@@ -384,9 +382,9 @@ body {
 
 
 .images {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-
 
 .photo-content {
     padding: 32px 16px;
@@ -394,8 +392,16 @@ body {
 
 
 .name {
-    text-align: center;
+    min-width: 134px;
     margin-bottom: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 
