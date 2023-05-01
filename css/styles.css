@@ -131,7 +131,6 @@ body {
 .button-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
     margin-bottom: 72px;
 }
 
@@ -185,7 +184,7 @@ body {
 .button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
-    border: 1px solid transparent;
+    border: 1px solid transparent red;
 }
 
 
@@ -240,13 +239,10 @@ body {
 
 .card-content {
     padding: 32px 16px;
-    
     border: 1px solid #e7e9fc;
-
-}
-.card-content {
     border-top: none;
 }
+
 
 .card {
     border-radius: 8px;
@@ -254,18 +250,17 @@ body {
     border: 1px solid #E7E9FC;
 }
 
+
 .card-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
-    
+    row-gap: 48px; 
 }
 
 
 .card-list>.items {
     flex-basis: calc((100% - 48px)/3);
-
 }
 
 
