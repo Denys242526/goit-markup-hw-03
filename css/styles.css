@@ -78,14 +78,6 @@ body {
 }
 
 
-.site-nav > .item + .item {
-    margin-left: 40px;
-}
-
-.item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 
 .nav-link {
@@ -113,13 +105,19 @@ body {
 .auth-nav {
     display: flex;
     gap: 40px;
-    
+
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: #4D5AE5;
 }
+
+
+.item {
+    padding: 24px 0;
+}
+
 
 
 .active-link {
@@ -147,7 +145,6 @@ body {
 
 
 .button-active {
-    padding: 12px 24px;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -157,19 +154,16 @@ body {
     border-radius: 4px;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    border: 1px solid #e7e9fc;
 }
 
 
 .button-active:hover,
 .button-active:focus {
     background-color: #404BBF;
-    border: 1px solid transparent;
 }
 
 
 .button {
-    padding: 12px 24px;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -179,7 +173,6 @@ body {
     border-radius: 4px;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    border: 1px solid #e7e9fc;
 }
 
 
@@ -191,12 +184,18 @@ body {
 
 }
 
-.button:hover,
-.button:focus {
-    border: 1px solid transparent;
+
+.item-button {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 
+.item-button:hover,
+.item-button:focus {
+    border: 1px solid transparent;
+}
 
 
 .service-button {
