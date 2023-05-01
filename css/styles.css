@@ -9,8 +9,7 @@ ul {
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    margin: 0;
 }
 
 
@@ -36,26 +35,32 @@ body {
 .page-header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #FFFFFF;
+    
 }
 
 
 .page-header-container {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px; 
 
 }
+
 
 .page-nav {
     display: flex;
     align-items: center;
+
 }
 
 
 .container {
     width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
+  
+ 
 }
 
 
@@ -184,7 +189,7 @@ body {
 .button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
-    border: 1px solid transparent red;
+    border: 1px solid transparent;
 }
 
 
