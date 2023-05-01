@@ -14,11 +14,6 @@ img {
 }
 
 
-button {
-    cursor: pointer;
-}
-
-
 .list {
     padding: 0;
     margin: 0;
@@ -78,17 +73,14 @@ body {
 }
 
 
-
+.item {
+    padding: 24px 0;
+}
 
 
 .site-nav {
     display: flex;
     gap: 40px;
-}
-
-
-.item {
-    padding: 24px 0;
 }
 
 
@@ -108,8 +100,8 @@ body {
 }
 
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404BBF;
 }
 
@@ -177,7 +169,6 @@ body {
 }
 
 
-
 .button {
     min-width: 116px;
     padding: 12px 24px;
@@ -194,9 +185,13 @@ body {
 }
 
 
+.button {
+    color: #FFFFFF;
+}
+
+
 .button:hover,
 .button:focus {
-    color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
 }
@@ -215,6 +210,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+    border: none;
     border-radius: 4px;
     color: #FFFFFF;
     background-color: #4d5ae5;
