@@ -78,7 +78,7 @@ body {
 }
 
 
-.site-nav>.item+.item {
+.site-nav > .item + .item {
     margin-left: 40px;
 }
 
@@ -86,6 +86,8 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+
 .nav-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -111,7 +113,7 @@ body {
 .auth-nav {
     display: flex;
     gap: 40px;
-    margin-left: auto;
+    
 }
 
 .auth-nav .link:hover,
@@ -145,7 +147,6 @@ body {
 
 
 .button-active {
-    min-width: 69px;
     padding: 12px 24px;
     font-family: 'Roboto';
     font-weight: 500;
@@ -168,7 +169,6 @@ body {
 
 
 .button {
-    min-width: 116px;
     padding: 12px 24px;
     font-family: 'Roboto';
     font-weight: 500;
