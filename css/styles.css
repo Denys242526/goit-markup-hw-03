@@ -4,6 +4,7 @@ h3,
 p,
 ul {
     margin: 0;
+    padding: 0;
 }
 
 
@@ -14,9 +15,9 @@ img {
 
 
 .list {
+    list-style: none;
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 
@@ -235,9 +236,12 @@ body {
 
 
 .section-hero {
+
     padding: 188px 0;
     background-color: #2E2F42;
+
 }
+
 
 
 .main-hero {
@@ -361,7 +365,6 @@ body {
 
 
 .name {
-    min-width: 134px;
     margin-bottom: 8px;
     font-family: 'Roboto';
     font-style: normal;
@@ -375,7 +378,21 @@ body {
 
 
 .paragraph {
+    margin-bottom: 8px;
     text-align: center;
+}
+
+
+.social-networks {
+    display: flex;
+    gap: 24px;
+}
+
+
+.social-networks-icons {
+    width: 40px;
+    height: 40px;
+
 }
 
 
@@ -403,6 +420,31 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+}
+
+
+.curtomers {
+    margin-top: 126px;
+    margin-bottom: 72px;
+    width: 183px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+
+.company-logos {
+    display: flex
+}
+
+
+.company-logos-icons {
+    width: 168px;
+    height: 88px;
+    padding: 0;
 }
 
 
