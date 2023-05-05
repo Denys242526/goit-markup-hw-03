@@ -439,7 +439,7 @@ body {
 }
 
 .social-networks-link:hover,
-.social-networks-link {
+.social-networks-link:focus {
     background-color: #404bbf;
 }
 
@@ -492,6 +492,10 @@ body {
 }
 
 .company-logos-link {
+    color: #8e8f99;
+}
+
+.company-logos-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -499,7 +503,6 @@ body {
     height: 100%;
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    color: #8e8f99;
 }
 
 .company-logos-link:hover,
