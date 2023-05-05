@@ -487,7 +487,7 @@ body {
 }
 
 .company-logos-list {
-    flex-basis: calc((100%-120px)/6);
+    flex-basis: calc((100% - 120px)/6);
     height: 88px;
 }
 
@@ -504,8 +504,6 @@ body {
 
 .company-logos-link:hover,
 .company-logos-link:focus {
-    border-color: #404bbf;
-    color: #404bbf;
     border-color: #404bbf;
     color: #404bbf;
 }
