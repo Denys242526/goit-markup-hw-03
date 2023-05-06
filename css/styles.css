@@ -492,17 +492,16 @@ body {
 }
 .company-logos-link:hover {
     color: #404bbf;
+    border-color: #404bbf;
 }
 
-.company-logos-link:hover {
-    border-color: #404bbf;
-}
-.company-logos-link:focus { 
-    border-color: #404bbf;
-}
+
 .company-logos-link:focus { 
     color: #404bbf;
+    border-color: #404bbf;
+
 }
+
 
 
 .company-logos-link {
